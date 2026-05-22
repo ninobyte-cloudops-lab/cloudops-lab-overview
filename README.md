@@ -2,9 +2,24 @@
 
 **Build, operate, and secure AWS AI workloads through governed lab practice.**
 
-The Ninobyte AI-Native CloudOps Lab is a governed AWS training environment for practical AI CloudOps. Learners work inside a controlled sandbox to build, operate, and secure a real AWS Bedrock application — practicing the day-to-day operational and security discipline that production AI workloads demand. The lab favors depth over breadth: real AWS services, documented guardrails, and evidence of work, rather than passive video courses or unverifiable certificates.
+The AI-Native CloudOps Lab is a governed AWS training environment for practical AI CloudOps. Learners work inside a controlled sandbox to build, operate, and secure a real AWS Bedrock application — practicing the operational and security discipline that production AI workloads demand. Depth over breadth: real AWS services, documented guardrails, and evidence of work, not passive videos or unverifiable certificates.
 
-This repository is a **public overview only**. The curriculum, sandbox architecture, and implementation live in a private repository.
+> This repository is a **public overview only**. The curriculum, sandbox architecture, and implementation live in a private repository.
+
+---
+
+## 🧪 The learner journey
+
+```mermaid
+flowchart LR
+    A[Governed Sandbox] --> B[Build]
+    B --> C[Operate]
+    C --> D[Secure]
+    D --> E[Document Evidence]
+    E --> F[Proof Pack]
+```
+
+Every step happens inside a governed sandbox and ends in portfolio-ready proof of work.
 
 ---
 
@@ -18,7 +33,7 @@ This repository is a **public overview only**. The curriculum, sandbox architect
 
 ---
 
-## 🧪 What learners practice
+## What learners practice
 
 - AWS account access and sandbox discipline
 - The Bedrock application lifecycle
@@ -29,24 +44,21 @@ This repository is a **public overview only**. The curriculum, sandbox architect
 
 ---
 
-## 📦 What the private repository contains
+## 🔒 What is private
 
-The private core repository holds the materials that make the lab work:
+The private core repository holds the materials that make the lab work — kept private by design:
 
-- Curriculum
+- Curriculum and learning design
 - Sandbox architecture
 - Instructor materials
 - Cost and safety gates
 - Lab implementation details
 
----
-
-## 🚫 What this public repository does not contain
+## 🚫 What this overview does not contain
 
 - AWS credentials
 - Terraform or infrastructure code
-- Solution guides
-- Internal instructor notes
+- Solution guides or instructor notes
 - Private repository contents
 - Student data
 - Live lab access
@@ -55,7 +67,9 @@ The private core repository holds the materials that make the lab work:
 
 ## Relationship to the platform
 
-The CloudOps Lab is one product line within the broader Ninobyte AWS training ecosystem, alongside the AI Security & Governance Lab — AWS Edition. Together they form a governed, evidence-based path for building, operating, securing, and governing AWS AI workloads.
+The CloudOps Lab is one product line within the broader Ninobyte AWS training ecosystem, alongside the [AI Security & Governance Lab — AWS Edition](https://github.com/ninobyte-cloudops-lab/ai-security-governance-lab-overview). Together they form a governed, evidence-based path for building, operating, securing, and governing AWS AI workloads.
+
+See also: [`ROADMAP.md`](ROADMAP.md) · [`RESPONSIBLE_USE.md`](RESPONSIBLE_USE.md)
 
 ---
 
@@ -65,6 +79,6 @@ Private platform foundation in development. Public overview only.
 
 ---
 
-## Contact
+## Next step
 
-For partnership, cohort, or review conversations, reach Ninobyte through its official channels.
+Explore the [Ninobyte CloudOps Lab organization](https://github.com/ninobyte-cloudops-lab) for the full picture. For partnership, cohort, or review conversations, reach Ninobyte through its official channels.

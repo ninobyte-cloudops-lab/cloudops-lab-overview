@@ -1,6 +1,8 @@
 # 🧭 Ninobyte AI-Native CloudOps Lab
 
-**Build, operate, and secure AWS AI workloads through governed lab practice.**
+**Governed AWS AI practice. CloudOps proof-of-work through safe sandbox learning, evidence packs, and practical cloud workflows.**
+
+> Part of the Ninobyte Connected AI Operator practice — *Connect. Govern. Execute. Prove.*
 
 Most cloud courses teach services in isolation. The AI-Native CloudOps Lab is for learners who have watched the videos but still need to operate an AWS AI workload with guardrails, cost awareness, troubleshooting discipline, and evidence they can explain.
 
